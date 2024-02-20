@@ -115,6 +115,23 @@ header h2 {
     gap: 5pxs;
 }
 
+#nav_list li {
+    width: 90%;
+    border: 1px solid steelblue;
+    border-radius: 5px;
+}
+
+#nav_list a {
+    display: block;
+    background-color: lightsteelblue;
+    padding: .5em;
+    color: black;
+}
+
+#nav_list a:hover {
+    background-color: steelblue;
+    color: white;
+}
 
 h1 {
     text-align: center;
@@ -141,7 +158,6 @@ aside a {
 
 aside a:hover, aside:active {
     color: maroon;
-    text-decoration: underline;
 }
 
 aside a:link, aside a:visited {
